@@ -1,0 +1,128 @@
+body {
+    background-color: #ffffff; /* white */
+    color: #008000; /* black */
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+}
+
+div.main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.content {
+    flex: 1;
+}
+
+.content {
+    margin: 2px;
+    min-height: 65vh;
+}
+
+.card {
+    width: 800px;
+    text-align: center;
+    margin: 40px auto;
+    border: 5px solid #008000; /* green */
+    padding: 5px;
+    background-color: #ffffff; /* white */
+    border-radius: 10px;
+}
+
+.card-title, .card-text {
+    color: #3f6c3f; /* black */
+}
+
+.restaurant-name {
+    color: #008000; /* green */
+    font-size: 50px;
+}
+
+.image-gallery {
+    margin-top: -200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.pagination {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.pagination-info, .pagination-no {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: #cccccc;
+}
+
+.pagination-info div, .pagination-no div {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ff0000; /* green */
+    background-color: #ff0000; /* red */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pagination-info div:hover, .pagination-no div:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.table {
+    background-color: #ffffff; /* white */
+    color: #008000; /* black */
+}
+
+.table th, .table td {
+    background-color: #ffffff; /* white */
+    color: #008000; /* black */
+    border-color: #dddddd; /* light grey */
+}
+
+.table th a {
+    color: #008000; /* green */
+}
+
+.btn-danger, .btn-primary {
+    background-color: #ff0000; /* red */
+    border-color: #ff0000; /* red */
+}
+
+.btn-danger:hover, .btn-primary:hover {
+    background-color: #cc0000; /* darker red */
+    border-color: #cc0000; /* darker red */
+}
+
+.btn-update {
+    background-color: #008000; /* green */
+    border-color: #008000; /* green */
+}
+
+.btn-update:hover {
+    background-color: #006400; /* dark green */
+    border-color: #006400; /* dark green */
+}
+
+.footer {
+    color: #ffffff;
+    background-color: #008000;
+    border-top: 10px solid red;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    width: 100%;
+}
